@@ -3,6 +3,7 @@
 		.item3 { grid-area: right; }
 		.item4 { grid-area: footer; }
 		.item5 { grid-area: text; }
+		.item6 {grid-area: RutgerVos;}
 
 		.grid-container {
 			display: grid;
@@ -10,7 +11,8 @@
 			'header header header header header'
 			'main main main right right'
 			'footer footer footer footer footer'
-			'text text text text text';
+			'text text text text text'
+			'RutgerVos RutgerVos RutgerVos RutgerVos RutgerVos';
 		}
 		.grid-container > div {
 			background-color: rgba(255, 255, 255, 0.8);
@@ -37,7 +39,22 @@
 		.HeaderIMG{
 			float: left;
 			margin-bottom: 10px;
-			margin-left: 50px
+			margin-left: 50px;
+		}
+		.BottomLeftIMG{
+			float: left;
+			margin-bottom: 10px;
+			margin-left: 50px;
+		}
+		.BottomRightIMG{
+			float: left;
+			margin-bottom: 10px;
+			margin-left: 50px;
+		}
+		.BottomCenterIMG{
+			float: left;
+			margin-bottom: 10px;
+			margin-left: 50px;
 		}
 		.bannerIMG{
 			float: left;
@@ -78,4 +95,29 @@
 			border: none;
 			font-size: 14px;
 			background-color: white;
+		}
+		.LeftImage{
+			text-align: left;
+			margin-left: 100px;
+			float:left;
+		}
+		.text1{
+			margin-left: 60px;
+			float:left;
+		}
+		.text2{
+			margin-left: 120px;
+			float:left;
+		}
+		.text3{
+			margin-left: 100px;
+			float:left;
+		}
+		.textA{
+			text-align: left;
+			font-size: 20px;
+		}
+		.textB{
+			text-align: left;
+			font-size: 14px;
 		}
