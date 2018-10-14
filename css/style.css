@@ -36,6 +36,14 @@
 		.item3{
 			background-image: url('../img/banner_bg.png')
 		}
+		}
+		.item4{
+			margin-bottom: 60px;
+			font-family: 'Lato' , sans-serif;
+			justify-content: center;
+			background-image: url('../img/footer_bg.png')
+
+		}
 		.HeaderIMG{
 			float: left;
 			margin-bottom: 10px;
@@ -102,15 +110,15 @@
 			float:left;
 		}
 		.text1{
-			margin-left: 60px;
+			margin-left: 50px;
 			float:left;
 		}
 		.text2{
-			margin-left: 120px;
+			margin-left: 100px;
 			float:left;
 		}
 		.text3{
-			margin-left: 100px;
+			margin-left: 200px;
 			float:left;
 		}
 		.textA{
